@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/rays"
+       tools:context=".SplashActivity" >
+
+    
+    <LinearLayout
+        android:id="@+id/sign_in_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <!-- sign-in button -->
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- sign-out button -->
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:visibility="gone" />
+    </LinearLayout>
+    
+
+    <TextView
+        android:id="@+id/joinStartLabel"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textColor="#FFF"
+        android:textSize="@dimen/inputLabelSize" />
+
+    
+    <Button
+        android:id="@+id/joinGameBttn"
+        android:layout_width="@dimen/optionButtonWidth"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/custom_option_button"
+        android:onClick="gotoDevicesTrackerActivity"
+        android:text="@string/joinGameBttnText"
+       
+        android:textColor="@color/customButtonTextColor"
+        android:textSize="@dimen/optionButtonTextSize" />
+    
+    <Button
+        android:id="@+id/howToPlayBtn"
+        android:layout_width="175dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/joinGameBttn"
+        android:background="@drawable/custom_option_button"
+        android:onClick="goToHelp"
+        android:text="@string/howToPlayTitleText"
+       
+        android:textColor="@color/customButtonTextColor"
+        android:textSize="25dp" />
+    
+       <Button
+        android:id="@+id/highBtn"
+        android:layout_width="175dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/howToPlayBtn"
+        android:background="@drawable/custom_option_button"
+        android:onClick="goToHigh"
+        android:text="High Scores"
+       
+        android:textColor="@color/customButtonTextColor"
+        android:textSize="25dp" />
+
+
+
+       
+    <LinearLayout
+        android:id="@+id/play_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/joinStartLabel"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <!-- show achievements -->
+
+        <RadioButton
+            android:id="@+id/show_achievements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Achievements" />
+
+        <!-- show leaderboards -->
+
+        <RadioButton
+            android:id="@+id/show_leaderboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leaderboard" />
+    </LinearLayout>
+       
+
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="apps.spacerayders.activity"
+    android:versionCode="5"
+    android:versionName="2.1" >
+
+    <uses-sdk android:minSdkVersion="9" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" >
+    </uses-permission>
+    
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:requiresSmallestWidthDp="310"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:icon="@drawable/run_tag"
+        android:label="@string/app_name" >
+         <meta-data
+            android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/app_id" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data android:name="com.google.android.gms.appstate.APP_ID"
+    android:value="@string/app_id" />
+        
+        <activity
+            android:name="apps.spacerayders.activity.SplashActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="apps.spacerayders.activity.SetJoinNameActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.DirectionsScreenActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.DevicesTrackerActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.CreateChoosePlayerNameActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="fitnessapps.spacerayders.GameNameSetupActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="fitnessapps.spacerayders.GameActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.StartGameDirectionsActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.LobbyServerActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.UserGameSelectActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.FinalScoreActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.HowToPlayActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.HowToSetUpActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.HowToGameActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.HowToGainPointsActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.SettingsActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.DirectionsActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.Help"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.TheGame"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="apps.spacerayders.activity.Points"
+            android:configChanges="orientation"
+            android:screenOrientation="nosensor" />
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_id">895878515575</string>
+    <string name="achievement_space_rayders">CgkI95aVtIkaEAIQAg</string>
+    <string name="achievement_space_2">CgkI95aVtIkaEAIQBA</string>
+    <string name="achievement_space_3">CgkI95aVtIkaEAIQBQ</string>
+    <string name="achievement_space_4">CgkI95aVtIkaEAIQBg</string>
+    <string name="achievement_space_5">CgkI95aVtIkaEAIQBw</string>
+    <string name="leaderboard_space_rayders">CgkI95aVtIkaEAIQAQ</string>
+    <string name="correct_guess_achievement">CgkI95aVtIkaEAIQAg</string>
+    <string name="number_guesses_leaderboard">CgkI95aVtIkaEAIQAQ</string>
+
+</resources>

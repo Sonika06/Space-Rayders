@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="correct_guess_achievement">CgkI95aVtIkaEAIQAg</string>
+    <string name="number_guesses_leaderboard">CgkI95aVtIkaEAIQAQ</string>
+    <string name="app_id">895878515575</string>
+    <string name="inputID">Enter your ID Number:</string>
+    <string name="app_name">Space Rayders</string>
+    <string name="inputHint">ID Number</string>
+    <string name="playerNameHint">Player Name</string>
+    <string name="gameNameHint">Name of Game</string>
+    <string name="okText">OK</string>
+    <string name="cancelText">Cancel</string>
+    <string name="playerNameInputText">Enter a Player Name:</string>
+    <string name="gameNameInputText">Enter a name for this game:</string>
+    <string name="directionTitleText">Directions</string>
+    <string name="directionBodyText">Step 1: Click your context menu and go to setting to select your color. Each player should have different color for the play. 
+Check the colors of the players that you are playing with, including your own. Click Save.  
+Step 2: Press back and then once everyone is ready to start press "Play Game" at the SAME TIME. </string>
+    <string name="creationDirectionBodyText">You will now need to wait for players to join. The game will begin at the time on the next screen. Press OK to begin waiting for players.</string>
+    <string name="devicesListTitleText">Get Moving!</string>
+    <string name="joinStartLabelText">Tele-Tag</string>
+    <string name="joinGameBttnText">Play Game</string>
+    <string name="startGameBttnText">Start Game</string>
+    <string name="scoreText">0</string>
+    <string name="setupTeamHeaderText">Game Settings</string>
+    <string name="selectColorText">Select team color:</string>
+    <string name="backupAgent_name">PhoneTagBackupAgent</string>
+    <string name="gameSelectionTitleText">Wait For Games to be Found</string>
+    <string name="gameSelectionBodyText">Click the Game You Want To Play</string>
+    <string name="gameSelectionButtonText">goToWaitingRoom</string>
+    <string name="serverLobbyHeaderText">Please wait for players to join</string>
+    <string name="finalScoreHeaderText">Final Score</string>
+    <string name="finalScoreBodyText">Good job!</string>
+    <string name="howToPlayTitleText">How To Play</string>
+    <string name="howToSetUpTitleText">Set Up</string>
+    <string name="howToPlayGameTitleText">The Game</string>
+    <string name="howToGainPointsTitleText">Points</string>
+    <string name="howToGameBodyText"> Each game is 2 minutes long. During the game, you can see the name of "IT" player and your current score. If you are not an "IT" player, your goal is to stay as far as you can from the "IT". If you are the "IT" player, your goal is to chase the other players. Every player will be the "IT," so be ready to RUN! The phone will vibrate when a different player becomes "IT", and will tell you if you become "IT".
+ \n</string>
+    <string name="howToGainPointsBodyText">You can only gain points during the time you are \"IT.\" You receive points for every 
+	    player you are close to.</string>
+    <string name="startGameMenuOption">Settings</string>
+    <string name="helpMenuOption">Help</string>
+    <string name="spinnerPrompt">Select Phone Color</string>
+    <string name="chk_blk">Black</string>
+    <string name="chk_blue">Blue</string>
+    <string name="chk_grn">Green</string>
+    <string name="chk_pnk">Pink</string>
+    <string name="chk_red">Red</string>
+    <string name="chk_sil">Silver</string>
+    <string name="saveBtn">Save</string>
+
+    <string-array name="color_options">
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Silver</item>
+    </string-array>
+
+</resources>
